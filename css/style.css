@@ -669,12 +669,10 @@ overflow: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 580px;
+  width: 408px;
   background-color: var(--color-white);
-  transition: opacity var(--transition-duration-and-funk)
-  
-  ;padding: 40px;
+  transition: opacity var(--transition-duration-and-funk);
+  padding: 72px 24px 24px;
 }
 
 .modal-close-btn {
@@ -704,6 +702,9 @@ overflow: hidden;
     font-weight: 700;
     text-align: center;
     color: var(--color-dark);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
 }
 /* ========= /MODAL WINDOW ========= */
 /* ========= MODAL FORM ========== */
@@ -713,7 +714,7 @@ overflow: hidden;
 }
 
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-form-input-desc {
@@ -754,7 +755,7 @@ overflow: hidden;
   transform: translate(0, -50%);
   display: block;
   width: 18px;
-  height: 18px;
+  height: 24px;
   transition: fill var(--transition-duration-and-funk);
 }
 
@@ -893,6 +894,10 @@ overflow: hidden;
   padding: 8px 24px;
   gap: 10px;
   transition: box-shadow var(--transition-duration-and-funk);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-form-submit:hover,
@@ -903,11 +908,6 @@ overflow: hidden;
 }
 
 .footer-form-input-icon {
-  position: absolute;
-  top: 50%;
-  right: 24px;
-  transform: translate(0, -50%);
-  display: block;
   width: 24px;
   height: 24px;
   transition: fill var(--transition-duration-and-funk);
@@ -919,9 +919,9 @@ overflow: hidden;
   position: relative;
 }
 
-.name-button {
-  margin-right: 16px;
-}
+/* .name-button {
+  text-align: center;
+} */
 
 .footer-form-input::placeholder {
   font-weight: 400;

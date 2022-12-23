@@ -433,7 +433,7 @@
             </ul>
           </div>
           <div class="footer-form-block">
-            <p class="footer-form-title">Subscribe</p>
+            <h3 class="footer-form-title">Subscribe</h3>
             <form class="footer-form">
               <input
                 type="email"
@@ -442,14 +442,12 @@
                 name="mail"
                 required
               />
-              <span class="footer-form-input-wrapper">
-                <button type="submit" class="footer-form-submit">
-                  <span class="name-button">Subscribe</span>
-                </button>
+              <button type="submit" class="footer-form-submit">
+                <span class="name-button">Subscribe</span>
                 <svg class="footer-form-input-icon">
                   <use href="./images/sprite.svg#icon-airplane"></use>
                 </svg>
-              </span>
+              </button>
             </form>
           </div>
         </div>
@@ -462,7 +460,9 @@
             <use href="./images/sprite.svg#icon-close-modal"></use>
           </svg>
         </button>
-        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <h3 class="modal-title">
+          Leave your contacts and we will call you back
+        </h3>
         <form class="modal-form">
           <label class="modal-form-field">
             <span class="modal-form-input-desc">Name</span>
@@ -472,11 +472,11 @@
                 type="text"
                 class="modal-form-input"
                 required
-                pattern="^[a-zA-Zа-яА-ЯіІїЇ+$]"
+                pattern="^[a-zA-Zа-яА-ЯіІїЇ+]"
                 minlength="2"
               />
               <svg class="modal-form-input-icon">
-                <use href="./images/sprite.svg#icon-name"></use>
+                <use href="./images/sprite.svg#icon-person"></use>
               </svg>
             </span>
           </label>
@@ -501,7 +501,7 @@
             <span class="modal-form-input-wrapper">
               <input name="user-mail" type="email" class="modal-form-input" />
               <svg class="modal-form-input-icon">
-                <use href="./images/sprite.svg#icon-mail"></use>
+                <use href="./images/sprite.svg#icon-email"></use>
               </svg>
             </span>
           </label>
