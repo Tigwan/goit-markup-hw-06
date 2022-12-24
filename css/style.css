@@ -783,7 +783,7 @@ overflow: hidden;
   outline: none;
   border-color: var(--color-primary-brand);
 }
-
+/* ========================================================================================= */
 .modal-form-check-desc {
   display: flex;
   align-items: center;
@@ -806,16 +806,12 @@ overflow: hidden;
   margin-right: 8px;
 }
 
-.modal-form-check:checked+.modal-form-check-desc::before {
-  background-color: var(--color-primary-brand);
-}
-
 .modal-form-check:focus+.modal-form-check-desc::before {
   background-repeat: no-repeat;
-  background-image: url(/images/checkmark.svg);
+  background-image: url(/images/daw.svg);
   background-position: 50% 50%;
 }
-
+/* ============================================================================================ */
 /* ---- Кнопка модального вікна ----- */
 .modal-form-submit {
   width: 170px;
@@ -930,3 +926,26 @@ overflow: hidden;
   letter-spacing: 0.01em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* ====================== */
+.highload0 {
+  opacity: 0;
+}
+
+  .highload0~label::before {
+    content: '\2713';
+    text-align: center;
+    color: white;
+    line-height: 1em;
+    width: 1em;
+    height: 1em;
+    border: 2px inset #000;
+    border-radius: 0.25em;
+    margin: 0.25em;
+    display: inline-block;
+  }
+
+  .highload0:checked~label::before {
+    color: red;
+    border: 2px inset red;
+  }
