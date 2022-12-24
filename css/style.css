@@ -842,7 +842,7 @@ margin-bottom: 24px;
 }
 
 .checkbox:checked + .icon {
-background-image: url(/images/daw.svg);
+background-image: url(/images/click.svg);
 background-color: var(--color-primary-brand);
 background-position: 50% 50%;
 }
