@@ -812,6 +812,31 @@ overflow: hidden;
   background-position: 50% 50%;
 }
 /* ============================================================================================ */
+/* Чекбокс от Репети */
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: absolute;
+}
+
+.icon {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.checkbox:checked + .icon {
+background-color: blue;
+background-image: url(/images/daw.svg);
+background-position: 50% 50%;
+}
+/* /Чекбокс от Репети */
 /* ---- Кнопка модального вікна ----- */
 .modal-form-submit {
   width: 170px;
