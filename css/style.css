@@ -813,26 +813,36 @@ overflow: hidden;
 }
 /* ============================================================================================ */
 /* Чекбокс от Репети */
+.lable{
+margin-bottom: 24px;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #757575;
+}
+
 .checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 
   position: absolute;
+
+  
 }
 
 .icon {
   content: "";
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   
-  border: 1px solid black;
-  border-radius: 4px;
+  border: 1.25px solid var(--color-dark);
+  border-radius: 2px;
 }
 
 .checkbox:checked + .icon {
-background-color: blue;
+background-color: var(--color-primary-brand);
 background-image: url(/images/daw.svg);
 background-position: 50% 50%;
 }
