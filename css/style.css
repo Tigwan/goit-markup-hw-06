@@ -842,8 +842,8 @@ margin-bottom: 24px;
 }
 
 .checkbox:checked + .icon {
-background-color: var(--color-primary-brand);
 background-image: url(/images/daw.svg);
+background-color: var(--color-primary-brand);
 background-position: 50% 50%;
 }
 /* /Чекбокс от Репети */
