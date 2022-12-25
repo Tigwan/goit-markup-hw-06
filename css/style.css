@@ -783,36 +783,8 @@ overflow: hidden;
   outline: none;
   border-color: var(--color-primary-brand);
 }
-/* ========================================================================================= */
-.modal-form-check-desc {
-  display: flex;
-  align-items: center;
-  margin-bottom: 24px;
-    font-size: 12px;
-    line-height: 1.2;
-    letter-spacing: 0.04em;
-  
-    color: #757575;
-}
 
-.modal-form-check-desc::before {
-  display: block;
-  width: 16px;
-  height: 16px;
-  border: 1.25px solid var(--color-dark);
-  cursor: pointer;
-  border-radius: 2px;
-  content: '';
-  margin-right: 8px;
-}
-
-.modal-form-check:focus+.modal-form-check-desc::before {
-  background-repeat: no-repeat;
-  background-image: url(/images/click.svg);
-  background-position: 50% 50%;
-}
-/* ============================================================================================ */
-/* Чекбокс от Репети */
+/* ===== Чекбокс ===== */
 .lable{
 margin-bottom: 24px;
   font-size: 12px;
@@ -827,8 +799,6 @@ margin-bottom: 24px;
   appearance: none;
 
   position: absolute;
-
-  
 }
 
 .icon {
@@ -847,7 +817,7 @@ background-image: url("../images/daw.svg");
 background-position: 50% 50%;
 background-origin: border-box;
 }
-/* /Чекбокс от Репети */
+/* ===== /Чекбокс ===== */
 /* ---- Кнопка модального вікна ----- */
 .modal-form-submit {
   width: 170px;
@@ -895,7 +865,7 @@ background-origin: border-box;
 
 .footer-form-input {
   width: 264px;
-  background-color: #2E2F42;
+  background-color: var(--color-dark);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding: 8px 16px;
@@ -951,10 +921,6 @@ background-origin: border-box;
   position: relative;
 }
 
-/* .name-button {
-  text-align: center;
-} */
-
 .footer-form-input::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -964,24 +930,3 @@ background-origin: border-box;
 }
 
 /* ====================== */
-.highload0 {
-  opacity: 0;
-}
-
-  .highload0~label::before {
-    content: '\2713';
-    text-align: center;
-    color: white;
-    line-height: 1em;
-    width: 1em;
-    height: 1em;
-    border: 2px inset #000;
-    border-radius: 0.25em;
-    margin: 0.25em;
-    display: inline-block;
-  }
-
-  .highload0:checked~label::before {
-    color: red;
-    border: 2px inset red;
-  }
