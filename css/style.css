@@ -842,9 +842,10 @@ margin-bottom: 24px;
 }
 
 .checkbox:checked + .icon {
-background-image: url(/images/click.svg);
+background-image: url(/images/borderclick.svg);
 background-color: var(--color-primary-brand);
 background-position: 50% 50%;
+background-origin: border-box;
 }
 /* /Чекбокс от Репети */
 /* ---- Кнопка модального вікна ----- */
