@@ -843,7 +843,7 @@ margin-bottom: 24px;
 
 .checkbox:checked + .icon {
 background-color: var(--color-primary-brand);
-background-image: url(/images/borderclick.svg);
+background-image: url("/images/borderclick.svg");
 background-position: 50% 50%;
 background-origin: border-box;
 }
